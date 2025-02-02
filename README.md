@@ -1,14 +1,15 @@
-# FastAPI Todo App
+# Todo App
 
-이 프로젝트는 FastAPI를 사용하여 간단한 Todo 애플리케이션을 구현한 것입니다. 이 애플리케이션은 CRUD(Create, Read, Update, Delete) 기능을 제공하며, 현재는 더미 데이터를 사용하고 있습니다. 추후 실제 데이터베이스와 연결할 예정입니다.
+FastAPI를 사용하여 간단한 Todo 애플리케이션을 구현. 애플리케이션은 CRUD(Create, Read, Update, Delete) 기능을 제공하며 현재는 더미 데이터를 사용하고 있습니다. 추후 실제 데이터베이스와 연결할 예정입니다.
 
 ## 프로젝트 구조
+```
 src/
 ├── db.py # 더미 데이터 및 데이터베이스 연결 설정
 ├── main.py # FastAPI 애플리케이션의 진입점
 ├── models.py # Pydantic 모델 정의
 └── routes.py # API 라우트 정의
-
+```
 
 ## 설치 및 실행
 
